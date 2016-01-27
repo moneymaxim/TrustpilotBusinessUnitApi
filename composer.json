@@ -1,0 +1,27 @@
+{
+    "name": "moneymaxim/trustpilot-business-unit-api",
+    "description": "PHP integration with the Trustpilot Business Unit API",
+    "require": {
+        "php": ">=5.5.0",
+        "guzzlehttp/guzzle": "~6.0",
+        "moneymaxim/trustpilot-authenticator": "^0.1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Carter",
+            "email": "andrew.carter@moneymaxim.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Trustpilot\\Api\\BusinessUnit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Trustpilot\\Test\\Api\\BusinessUnit\\": "test/"
+        }
+    }
+}
+
